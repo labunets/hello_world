@@ -2,7 +2,7 @@
 // Created by Denys Labunets on 12/18/17.
 // Copypasted from C lang book by Brian Kernighan and Dennis Ritchie
 //
-// print temp table in fahr. and cels. with float arith. and title
+// print temp table in fahr. and cels. with float arith. and titles
 //
 
 #include <stdio.h>
