@@ -1,5 +1,5 @@
 //
-// Created by Denys Labunets on 12/18/17.
+// Created by Denys Labunets on 12/18/17
 // Copypasted from C lang book by Brian Kernighan and Dennis Ritchie
 //
 
