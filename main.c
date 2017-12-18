@@ -2,7 +2,7 @@
 // Created by Denys Labunets on 12/20/17
 // Copypasted from C lang book by Brian Kernighan and Dennis Ritchie
 //
-// print chars count
+// print chars histogram
 
 #include <stdio.h>
 
@@ -25,7 +25,11 @@ int main() {
     for ( int i = 0; i < clen; ++i ) {
         if ( chars[i] > 0 ) {
             putchar(i + STARTCHAR);
-            printf(" = %d\n", chars[i]);
+            putchar(' ');
+            for ( int j = 0; j < chars[i]; ++j ) {
+                printf("-");
+            }
+            printf("\n");
         }
     }
     
