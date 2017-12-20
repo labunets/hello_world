@@ -2,16 +2,20 @@
 // Created by Denys Labunets on 12/20/17
 // Copypasted from C lang book by Brian Kernighan and Dennis Ritchie
 //
-// print one word in line
+// replace special chars
 
 #include <stdio.h>
 
-int main() {
+int main(void) {
     int c;
     
     while ((c = getchar()) != EOF) {
-        if ( c == ' ' || c == '\n' || c == '\t' ) {
-            putchar('\n');
+        if ( c == '\t' ) {
+            printf("\\t");
+        } else if ( c == '\b') {
+            printf("\\b");
+        } else if ( c == '\\') {
+            printf("\\\\");
         } else {
             putchar(c);
         }
