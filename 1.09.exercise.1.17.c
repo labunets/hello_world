@@ -2,7 +2,7 @@
 // Created by Denys Labunets on 1/21/18
 // Copypasted from C lang book by Brian Kernighan and Dennis Ritchie
 //
-// Print strings more than MAXLINE
+// Print lines more than 80 chars
 //
 
 #include <stdio.h>
