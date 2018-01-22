@@ -1,9 +1,7 @@
 # Hello World! with Brian Kernighan and Dennis Ritchie
 
 ## C lang
-Like in classic school - I'm starting to learn C lang, creating *Hello World!*. 
-Most of the files copypasted from C lang book by Brian Kernighan and Dennis Ritchie. 
-Exercises I did by myself.
+Most of the files are copied from the book. After reading the chapter of the book, I did the exercises.
 
 # 1.01. First steps
 # 1.02. Variables & arithmetics
