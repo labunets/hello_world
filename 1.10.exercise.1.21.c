@@ -10,8 +10,7 @@
 #define TABLEN 4
 
 int main() {
-    char c;
-    int needle;
+    int c, needle;
     int counter = 0;
     
     while ( (c = getchar()) != EOF ) {
