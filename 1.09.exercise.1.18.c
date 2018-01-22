@@ -15,10 +15,8 @@ void printLine(char line[], int len);
 
 int main() {
     int len;
-    int max;
     char line[MAXLINE];
     
-    max = 0;
     while ((len = getLine(line, MAXLINE)) > 0 ) {
         printLine(line, len);
     }
