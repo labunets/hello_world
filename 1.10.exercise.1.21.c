@@ -1,3 +1,10 @@
+//
+// Created by Denys Labunets on 1/22/18
+// Copypasted from C lang book by Brian Kernighan and Dennis Ritchie
+//
+// Replace Spaces with Tabs
+//
+
 #include <stdio.h>
 
 #define TABLEN 4
