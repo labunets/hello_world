@@ -2,7 +2,7 @@
 // Created by Denys Labunets on 1/22/18
 // Copypasted from C lang book by Brian Kernighan and Dennis Ritchie
 //
-// Checks syntax
+// Checks syntax 
 //
 
 #include <stdio.h>
