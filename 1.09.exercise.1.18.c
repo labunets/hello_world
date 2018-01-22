@@ -1,3 +1,10 @@
+//
+// Created by Denys Labunets on 1/21/18
+// Copypasted from C lang book by Brian Kernighan and Dennis Ritchie
+//
+// Removes whitespaces from the end of lines
+//
+
 #include <stdio.h>
 
 #define MAXLINE 1000
