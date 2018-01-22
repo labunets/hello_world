@@ -1,3 +1,10 @@
+//
+// Created by Denys Labunets on 1/22/18
+// Copypasted from C lang book by Brian Kernighan and Dennis Ritchie
+//
+// Word wrap
+//
+
 #include <stdio.h>
 
 #define MAXLINE 1000
