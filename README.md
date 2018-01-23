@@ -12,6 +12,7 @@ Most of the files are copied from the book. After reading the chapter of the boo
 1.07. Functions\
 1.08. Arguments\
 1.09. Char arrays\
-1.10. External variables\
+1.10. External variables
 
-2.01. Var names
+2.01. Var names\
+2.02. Data types
