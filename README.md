@@ -15,4 +15,5 @@ Most of the files are copied from the book. After reading the chapter of the boo
 1.10. External variables
 
 2.01. Var names\
-2.02. Data types
+2.02. Data types\
+2.03. Constants
