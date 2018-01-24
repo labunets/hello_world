@@ -18,4 +18,5 @@ Most of the files are copied from the book. After reading the chapter of the boo
 2.02. Data types\
 2.03. Constants\
 2.04. Declarations\
-2.05. Arithmetics
+2.05. Arithmetics\
+2.06. Comparison and logic
