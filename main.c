@@ -1,18 +1,14 @@
-#define MAXLINE 1000
-
-int strlen(const char[]); // const == do not change transferred array
+#include <stdio.h>
 
 int main() {
-    int lower;
-    int higher;
-    int step;
-    char c;
-    char line[1000];
-    char esc = '\\';
-    int i = 0;
-    int limit = MAXLINE + 1;
-    float eps = 1.0e-05;
-    const double e = 2.71828182845905;
+    int a = 2;
+    int b = 5;
+    
+    printf("%d * %d = % d\n", a, b, a*b);
+    printf("%d / %d = % d\n", a, b, a/b);
+    printf("%d + %d = % d\n", a, b, a+b);
+    printf("%d - %d = % d\n", a, b, a-b);
+    printf("%d %% %d = % d\n", a, b, a%b);
     
     return 0;
 }
