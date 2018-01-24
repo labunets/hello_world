@@ -1,16 +1,15 @@
 #include <stdio.h>
+#include <math.h>
 
 int main() {
-    int a = 0;
-    int b = 5;
+    unsigned int i = ~0;
+    unsigned char c = 100;
+    double d;
 
-    printf("%d > %d = % d\n", a, b, a>b);
-    printf("%d < %d = % d\n", a, b, a<b);
-    printf("%d == %d = % d\n", a, b, a==b);
-    printf("%d != %d = % d\n", a, b, a!=b);
-    printf("%d || %d = % d\n", a, b, a||b);
-    printf("%d && %d = % d\n", a, b, a&&b);
-    printf("!%d = % d\n", a, !a);
+    c = i;
+    i = c;
+    d = i;
+    printf("%g\n", sqrt(d));
 
     return 0;
 }
