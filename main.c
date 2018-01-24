@@ -1,50 +1,18 @@
-#include <stdio.h>
-
 #define MAXLINE 1000
-#define MINLINE 80
 
-int getLine(char line[], int maxline);
-
-void wordWrap(char line[], int len);
+int strlen(const char[]); // const == do not change transferred array
 
 int main() {
-    int len;
-    char line[MAXLINE];
-    
-    while ((len = getLine(line, MAXLINE)) > 0 ) {
-        wordWrap(line, len);
-        printf("%s", line);
-    }
+    int lower;
+    int higher;
+    int step;
+    char c;
+    char line[1000];
+    char esc = '\\';
+    int i = 0;
+    int limit = MAXLINE + 1;
+    float eps = 1.0e-05;
+    const double e = 2.71828182845905;
     
     return 0;
-}
-
-int getLine(char line[], int maxline) {
-    int c, i;
-    
-    for ( i = 0; i < maxline - 1 && (c = getchar()) != EOF && c != '\n'; ++i ) {
-        line[i] = c;
-    }
-    if ( c == '\n' ) {
-        line[i] = c;
-        ++i;
-    }
-    line[i] = '\0';
-    
-    return i;
-}
-
-void wordWrap(char line[], int len) {
-    int needle;
-    
-    if ( len > MINLINE ) {
-        needle = MINLINE;
-        while ( needle < len ) {
-            while ( line[needle] != ' ' && line[needle] != '\t' ) {
-                --needle;
-            }
-            line[needle] = '\n';
-            needle = needle + MINLINE;
-        }
-    }
 }
